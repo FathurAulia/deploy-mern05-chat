@@ -5,14 +5,7 @@ const config = {
   mongoUri:
     process.env.MONGODB_URI ||
     process.env.MONGO_HOST ||
-    "mongodb://" +
-      (process.env.IP || "localhost") +
-      ":" +
-      (process.env.MONGO_PORT || "27017") +
-      "/mernproject",
-  // mongoUri:
-  //   process.env.MONGODB_URI ||
-  //   "mongodb+srv://yoga:AApmmeT1aixhRxV6@cluster0.dd0joei.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://yogaaulia00:0987612345@cluster0.sp2jfcr.mongodb.net/?retryWrites=true&w=majority",
 };
 
 export default config;
